@@ -5,7 +5,7 @@ A simple utility for converting a binary file to a header source file which can 
 bin2c ok.png
 
 Now you have a header file called ok.h which can be use like this:
-```
+```cpp
 #include "ok.h"
 
 MyFrame::MyFrame(...)
