@@ -5,6 +5,7 @@ A simple utility for converting a binary file to a header source file which can 
 bin2c ok.png
 
 Now you have a header file called ok.h which can be use like this:
+```
 #include "ok.h"
 
 MyFrame::MyFrame(...)
@@ -13,3 +14,4 @@ MyFrame::MyFrame(...)
   button1->SetToolTip(_("Show a dialog with information"));
   button1->SetBitmap(wxBITMAP_PNG_FROM_DATA(ok)); // same name as header
 }
+```
