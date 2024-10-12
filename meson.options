@@ -1,0 +1,1 @@
+option('USE_BZ2', type: 'boolean', value: false)
